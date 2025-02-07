@@ -8,7 +8,7 @@ die definierten Sensoren.
 Die Basis-URL wird in der configuration.yaml definiert, z. B.:
   
   bosch_bpt_inverter:
-    resource: "http://192.168.xxx.xxx"
+    resource: "http://192.168.11.46"
 
 Die Debug-Logeinträge werden nur ausgegeben, wenn DEBUG_LOGGING auf True gesetzt ist.
 """
