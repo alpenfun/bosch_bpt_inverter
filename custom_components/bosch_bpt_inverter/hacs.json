@@ -6,7 +6,6 @@
   "homeassistant": "2024.2.0",
   "iot_class": "local_polling",
   "render_readme": true,
-  "filename": "bosch_bpt_inverter.zip",
   "zip_release": false,
   "image": "hacs_icon.png"
 }
