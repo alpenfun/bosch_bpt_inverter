@@ -31,3 +31,5 @@ Die Integration wird über die YAML-Konfiguration (nur die Basis-URL) konfigurie
 ```yaml
 bosch_bpt_inverter:
   resource: "http://192.168.xxx.xxx"
+
+![Bosch BPT Inverter](images/readme_logo.png)
