@@ -7,5 +7,6 @@
   "iot_class": "local_polling",
   "render_readme": true,
   "zip_release": false,
-  "image": "hacs_icon.png"
+  "image": "https://raw.githubusercontent.com/alpenfun/bosch_bpt_inverter/main/images/hacs_icon.png"
+
 }
