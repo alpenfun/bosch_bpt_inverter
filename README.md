@@ -4,7 +4,7 @@ Home Assistant integration via HACS for Bosch BPT inverters
 
 # Bosch BPT Inverter Integration für Home Assistant
 
-Diese Custom Integration ermöglicht es, den Bosch BPT-S 4.6 PV Inverter via RESTful API auszulesen und diverse Sensoren in Home Assistant bereitzustellen.
+Diese Custom Integration ermöglicht es, den Bosch BPT-S 4.6 PV Inverter (Photovoltatik Wechselrichter) via RESTful API auszulesen und diverse Sensoren in Home Assistant bereitzustellen.
 
 ## Installation
 
