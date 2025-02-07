@@ -1,0 +1,12 @@
+{
+    "domain": "bosch_bpt_inverter",
+    "name": "Bosch BPT Inverter",
+    "version": "0.0.1",
+    "documentation": "https://github.com/alpenfun/bosch_bpt_inverter",
+    "dependencies": [],
+    "codeowners": ["@alpenfun"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "integration_type": "hub"
+  }
+  
