@@ -55,7 +55,7 @@ SENSOR_DEFINITIONS = {
         ("deviceName", "Gerätename", "mdi:rename-box", None, None, None),
         ("model", "Modell", "mdi:chip", None, None, None),
         ("nominalPower", "Nennleistung", "mdi:flash", "kW", "power", None),
-        ("numberOfStringInputs", "String-Eingänge", "mdi:connections", None, None, None),
+        ("numberOfStringInputs", "String-Eingänge", "mdi:connection", None, None, None),
         ("firmware", "Firmware", "mdi:memory", None, None, None),
     ],
     "DcPower": [
@@ -94,7 +94,7 @@ class BoschInverterCoordinator(DataUpdateCoordinator):
     async def _async_update_data(self) -> dict:
         try:
             async with aiohttp.ClientSession() as session:
-                async with async_timeout.timeout(10):
+                async with async_timeout.timeout(20):
                     # ssl=False unterbindet SSL-Prüfung, da der Wechselrichter HTTP nutzt.
                     async with session.get(self.resource, headers=self.headers, ssl=False) as response:
                         if response.status != 200:
