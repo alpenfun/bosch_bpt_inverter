@@ -1,3 +1,7 @@
+Changelog:
+16.02.2022 - timeout auf 15 sec.
+
+First Release
 ![Bosch BPT Inverter](readme_logo.png)
 # bosch_bpt_inverter
 Home Assistant integration via HACS for Bosch BPT inverters
