@@ -94,7 +94,7 @@ class BoschInverterCoordinator(DataUpdateCoordinator):
     async def _async_update_data(self) -> dict:
         try:
             async with aiohttp.ClientSession() as session:
-                async with async_timeout.timeout(20):
+                async with async_timeout.timeout(15):
                     # ssl=False unterbindet SSL-Prüfung, da der Wechselrichter HTTP nutzt.
                     async with session.get(self.resource, headers=self.headers, ssl=False) as response:
                         if response.status != 200:
